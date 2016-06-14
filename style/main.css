@@ -1,0 +1,147 @@
+/***********************************************************************************************
+ * based on http://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_webpage&stacked=h *
+ ***********************************************************************************************/
+
+
+/* remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/* set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+  height: 300px;
+}
+
+/* set gray background colour and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: #B4C5EF;
+  height: 100%;
+}
+
+/* set some padding */
+footer {
+  padding: 15px;
+}
+
+/* on small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;}
+}
+
+
+/***********************************************************************************************/
+
+/**************************************
+ * Color Scheme (darkest to lightest) *
+ *                                    *
+ * Black Blue: #0C0D0D                *
+ *  Dark Blue: #021A56                *
+ *       Blue: #0439BF                *
+ *  Main Blue: #779AF0                *
+ * Light Blue: #556EAD                *
+ * White Blue: #B4C5EF                *
+ **************************************/
+
+/* set jumbotron colour scheme, margins and paddings */
+.jumbotron {
+  margin-bottom: 0;
+  padding-left: 10px;
+  padding-right: 40px;
+  background-color: #021A56;
+  color: #B4C5EF;
+}
+
+/* set main content colour scheme */
+#main {
+  background-color: #779AF0;
+  color: #0C0D0D;
+}
+
+/* set hr colour */
+hr {
+  border-color: #021A56;
+}
+
+/* set footer colour scheme */
+.footer {
+  background-color: #222222;
+  color: #B4C5EF;
+}
+
+/* set form element focus visual elements */
+.form-control:focus {
+  border-color: #88650F;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+/* set alert border */
+.alert {
+  border: solid red 1px;
+}
+
+/* set form element border */
+.form-control {
+  border: solid #021A56 1px;
+}
+
+/* set button colour scheme */
+.btn-primary {
+  border: solid #0C0D0D 1px;
+  background-color: #021A56;
+  color: #B4C5EF;
+}
+
+/* set logo image properties */
+#logo {
+  float: right;
+  height: 170px;
+  width: 170px;
+}
+
+/* set dropdown element styling */
+.left-inner-addon i {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+/* set dropdown element styling */
+.left-inner-addon input {
+    padding-left: 30px;
+}
+
+/* set right navigator styling */
+#right-nav {
+  background-color: #021A56;
+  color: #B4C5EF;
+  border-left: solid 1px #0C0D0D;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* set right navigator paragraph styling */
+#right-nav p {
+  padding-top: 5px;
+  color: #B4C5EF;
+}
+
+/* set right navigator hr colour */
+#right-nav hr {
+  border-color: #B4C5EF;
+}
+
+/* set About images styling */
+.about-image {
+  width: 50px;
+  height: 50px;
+  float: right;
+}
